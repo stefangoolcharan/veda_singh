@@ -1,0 +1,61 @@
+.quote-bx {}
+
+.quote {
+    font-family: "Montserrat", sans-serif;
+    font-size: 5rem;
+    line-height: 6rem;
+    max-width: 60vw;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.image1 {
+    width: 25%;
+    height: 50%;
+    filter: brightness(80%);
+}
+
+.image2 {
+    width: 12%;
+    height: 50%;
+    position: relative;
+    top: 40vh;
+    left: 2vw;
+    z-index: 1;
+}
+
+.image3 {
+    width: 20%;
+    height: 10%;
+    position: relative;
+    top: 10vh;
+    right: 4vw;
+}
+
+.img {
+    box-shadow: 10px 10px 10px #2423239f;
+}
+
+.img-txt {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 2px;
+    left: 4vw;
+    top: 50vh;
+    transition: 0.3s;
+}
+
+.img-txt:hover {
+    scale: 1.1;
+    color: #942121;
+}
+
+.box {
+    height: 100vh;
+}
