@@ -20,6 +20,7 @@ const Mosiac = () => {
             </div>
             <div>
                 <div className='images'>
+                    <p data-scroll data-scroll-speed="-0.1"  className='text-black text-8xl her'>HER</p>
                     <Image src={image2} alt="logo" className='image2 img' data-scroll data-scroll-speed="0.2" />
                     <Image src={image1} alt="logo" className='image1' />
                     <Link href='#'><p className='text-black text-4xl z-10 img-txt'>View All</p></Link>

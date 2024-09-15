@@ -2,6 +2,7 @@
 import { useEffect } from 'react';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/navbar';
+import Gallery from '@/components/Gallery';
 import Mosiac from '@/components/Mosiac';
 
 export default function Home() {
@@ -19,7 +20,6 @@ export default function Home() {
         <div>
             <Hero />
             <Navbar />
-            <Mosiac />
         </div>
     );
 }
