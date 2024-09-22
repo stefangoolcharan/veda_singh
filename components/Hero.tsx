@@ -20,8 +20,8 @@ const Hero = () => {
                     <div data-scroll data-scroll-speed="-0.55" className="letter text-white">A</div>
                 </div>
             </div>
-            <div>
-                <div className='line'></div>
+            <div className='explore'>
+                <div data-scroll data-scroll-speed="0.3" className="line"></div>
                 <div className="hero-txt" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                     <p>E</p>
                     <p>x</p>
