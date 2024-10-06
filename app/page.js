@@ -2,8 +2,9 @@
 import { useEffect } from 'react';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/navbar';
-import Gallery from '@/components/Gallery';
 import Mosiac from '@/components/Mosiac';
+import Gallery from '@/components/Gallery';
+import Footer from '@/components/Footer';
 
 export default function Home() {
 
@@ -21,6 +22,7 @@ export default function Home() {
             <Hero />
             <Navbar />
             <Mosiac/>
+            <Footer/> 
         </div>
     );
 }

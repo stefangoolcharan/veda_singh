@@ -1,9 +1,9 @@
-'use client'
-import Image from 'next/image';
-import image1 from '../public/Portfolio/1.jpg'
+import '../app/css/gallery.css'
 
 const Gallery = () => {
-    <div>Gallary</div>
-};
+    return (
+        <div className='test'>Hello</div>
+    )
+}
 
-export default Gallery;
+export default Gallery
