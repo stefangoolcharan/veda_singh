@@ -1,7 +1,6 @@
 
 .quote {
     font-family: "Montserrat", sans-serif;
-    font-size: 5rem;
     line-height: 6rem;
     max-width: 60vw;
 }
@@ -51,8 +50,8 @@
     position: relative;
     font-weight: 500;
     letter-spacing: 2px;
-    left: 4vw;
-    top: 50vh;
+    left: 10vw;
+    top: 60vh;
     transition: 0.3s;
 }
 

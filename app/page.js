@@ -21,7 +21,7 @@ export default function Home() {
         <div>
             <Hero />
             <Navbar />
-            <Mosiac/>
+            <Mosiac />
             <Footer/> 
         </div>
     );

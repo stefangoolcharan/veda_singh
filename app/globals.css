@@ -84,7 +84,7 @@ body {
 }
 
 .nav-text a:hover{ 
-  color: rgb(136, 32, 32);
+  color: #882020;
   transition: 0.3s;
 }
 
@@ -112,4 +112,15 @@ body {
 
 .abt-img{ 
   box-shadow: 10px 10px 10px #2423239f;
+}
+
+.book-btns button a{ 
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.portfolio h1{ 
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
 }

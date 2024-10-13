@@ -44,6 +44,16 @@ export default function About() {
                         <p className="text-gray-600 text-lg sm:text-xl md:text-1xl lg:text-xl ">
                             Based in Trinidad, I am available for local shoots and I am eager to explore opportunities both locally & internationally. My goal is to bring each brand's unique vision to life through my adaptability, professionalism, and commitment to embodying its identity and aesthetic.
                         </p>
+
+                        <div className='mt-8 book-btns'>
+                            <button className="mr-10 px-6 py-2 border-2 border-black text-white bg-[#942121] hover:bg-black hover:text-white transition duration-300">
+                                <a href='' target='blank'>Book Me</a>
+                            </button>
+
+                            <button className="px-6 py-2 border-2 border-black text-black bg-[transparent] hover:bg-black hover:text-white transition duration-300">
+                                <a href='' target='blank'>Portfolio</a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>
