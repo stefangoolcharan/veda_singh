@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useEffect } from 'react';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/Footer';
-import Image1 from '../Assets/Hero.png';
+import Image1 from '/public/portfolio.jpg';
 import Gallery from '@/components/Gallery';
 
 export default function Portfolio() {
@@ -22,14 +22,14 @@ export default function Portfolio() {
             <Navbar />
             <div className='bg-[#F2FCF8] portfolio'>
                 <div className='p-10 flex items-center justify-center h-full '>
-                    <Image src={Image1} width={1400} height={800}></Image>
+                    <Image src={Image1} width={1100} height={800}></Image>
                 </div>
-                <h1 className='text-black font-medium text-lg sm:text-xl md:text-3xl lg:text-3xl'>PORTFOLIO</h1>
-                <div className='flex justify-between items-center h-64 px-[20vw] lg:px-[35vw] md:px-[30vw]'>
-                    <div class='text-left text-1xl sm:text-xl md:text-2xl lg:text-4xl text-black font-semibold'>
+                <h1 className='text-black font-medium text-3xl sm:text-xl md:text-3xl lg:text-4xl'>PORTFOLIO</h1>
+                <div className='flex justify-between items-center h-64 px-[20vw] lg:px-[37vw] md:px-[30vw]'>
+                    <div className='text-left text-1xl sm:text-xl md:text-2xl lg:text-3xl text-black font-semibold'>
                         COMP CARD:
                     </div>
-                    <div class='text-left text-sm sm:text-sm md:text-sm lg:text-lg text-black font-medium'>
+                    <div className='text-left text-sm sm:text-sm md:text-sm lg:text-lg text-black font-medium'>
                         <ul>
                             <li>Height: 5'8" / 1.72m</li>
                             <li>Bust: 34" / 86.3cm</li>

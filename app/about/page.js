@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useEffect } from 'react';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/Footer';
-import Aboutimg from '../Assets/about.jpg';
+import Aboutimg from '/public/about.jpg';
 import '../globals.css';
 
 export default function About() {
@@ -25,10 +25,10 @@ export default function About() {
                     {/* Left side - Image */}
                     <div className="md:w-1/2 pb-10 md:mb-0 ">
                         <Image
-                            src={Aboutimg} // Replace with your image path
+                            src={Aboutimg} 
                             alt="About Us"
-                            width={600} // Adjust width according to your image
-                            height={600} // Adjust height according to your image
+                            width={600} 
+                            height={600} 
                             className=" shadow-lg abt-img"
                         />
                     </div>

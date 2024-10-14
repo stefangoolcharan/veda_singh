@@ -1,4 +1,3 @@
-import '../app/css/gallery.css';
 import Image from 'next/image';
 import Image1 from '../public/Portfolio/1.jpg';
 import Image2 from '../public/Portfolio/2.jpg';
@@ -13,7 +12,7 @@ import Image9 from '../public/Portfolio/9.jpg';
 
 const Gallery = () => {
     return (
-        <div className='bg-[#F2FCF8] px-7 grid gap-4 grid-cols-1 md:grid-cols-3 md:px-20 lg:grid-col-3 lg:px-80 lg:py-28 '>
+        <div className='bg-[#F2FCF8] px-7 grid gap-4 grid-cols-1 md:grid-cols-3 md:px-20 lg:grid-col-3 lg:px-80 lg:py-20 '>
             <div className='grid gap-4 '>
                 <div>
                     <Image src={Image1} className="h-auto max-w-full rounded-lg " width={600} height={600} alt='image1' />

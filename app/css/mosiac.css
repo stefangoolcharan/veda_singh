@@ -1,15 +1,25 @@
 
 .quote {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Kaisei HarunoUmi", serif;
     line-height: 6rem;
+    letter-spacing: 15px;
     max-width: 60vw;
+}
+
+.quote1{ 
+    letter-spacing: 5px;
+    font-size: 3vh;
+}
+
+.quote2{ 
+    font-family: "Kaisei HarunoUmi", serif;
 }
 
 .images {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding-top: 16vh;
+    padding-top: 10vh;
 }
 
 .her{ 
@@ -18,17 +28,17 @@
 }
 
 .image1 {
-    width: 25%;
+    width: 27%;
     height: 50%;
     filter: brightness(80%);
 }
 
 .image2 {
-    width: 12%;
+    width: 15%;
     height: 50%;
     position: relative;
-    top: 40vh;
-    left: 2vw;
+    top: 20vh;
+    left: 1vw;
     z-index: 1;
 }
 
@@ -37,7 +47,7 @@
     height: 10%;
     position: relative;
     top: 10vh;
-    right: 4vw;
+    right: 2vw;
 }
 
 .img {

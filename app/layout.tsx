@@ -16,8 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <script src="https://kit.fontawesome.com/d65685273d.js" ></script>
-        <script src="https://unpkg.com/react-responsive-masonry/umd/react-responsive-masonry.js"></script>
-      </head>
+     </head>
       <body>
         <main>
           {children}
