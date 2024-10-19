@@ -35,7 +35,7 @@ function About() {
                               <a href='' target='blank'>Book Me</a>
                           </button>
 
-                          <button className="px-6 py-2 border-2 border-black text-black bg-[transparent] hover:bg-black hover:text-white transition duration-300">
+                          <button className=" px-6 py-2 border-2 border-black text-black bg-[transparent] hover:bg-black hover:text-white transition duration-300">
                               <a href='' target='blank'>Portfolio</a>
                           </button>
                       </div>

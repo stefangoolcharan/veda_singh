@@ -1,28 +1,26 @@
-
 .quote {
     font-family: "Kaisei HarunoUmi", serif;
-    line-height: 6rem;
     letter-spacing: 15px;
-    max-width: 60vw;
 }
 
-.quote1{ 
+.quote1 {
     letter-spacing: 5px;
-    font-size: 3vh;
+    font-family: "Kaisei HarunoUmi", serif;
+    color: black;
 }
 
-.quote2{ 
+.quote2 {
     font-family: "Kaisei HarunoUmi", serif;
 }
 
 .images {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    padding-top: 10vh;
+   
+    padding-top: 15vh;
 }
 
-.her{ 
+.her {
     font-family: "Kaisei HarunoUmi", serif;
     color: #942121;
 }
@@ -47,7 +45,7 @@
     height: 10%;
     position: relative;
     top: 10vh;
-    right: 2vw;
+    right: 1vw;
 }
 
 .img {
@@ -55,21 +53,18 @@
 }
 
 .img-txt {
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
     position: relative;
-    font-weight: 500;
-    letter-spacing: 2px;
-    left: 10vw;
+    font-weight: 400;
     top: 60vh;
+     font-size: 2vh;
     transition: 0.3s;
 }
 
 .img-txt:hover {
-    scale: 1.1;
     color: #942121;
+    cursor: pointer;
 }
 
-.box{
+.box {
     height: 30vh;
 }
