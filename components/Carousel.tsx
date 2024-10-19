@@ -1,6 +1,7 @@
 'use client'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import '../app/globals.css'
 
 import Image from "next/image";
 import Link from "next/link";
@@ -36,9 +37,9 @@ const Carousel = () => {
                 >
                     {/* Slide 1 */}
                     <SwiperSlide>
-                        <div className="flex items-center justify-center h-screen bg-gray-200 flex-col">
+                        <div className=" img-con flex items-center justify-center h-screen bg-gray-200 ">
                             <Image src={Image1} className="object-cover w-full h-full transform scale-100 grid-img" width={800} height={1200} alt='image1' />
-                            <button className=" absolute opacity-1 bottom-20 px-6 py-2 border-2 border-white text-white bg-[#942121] hover:bg-black hover:text-white transition duration-300">
+                            <button className="grid-img-btn absolute bottom-20 px-6 py-2 border-2 border-white text-white bg-[#942121] hover:bg-black hover:text-white transition duration-300">
                                 <a href='' target='blank'>View More</a>
                             </button>
                         </div>
@@ -46,22 +47,31 @@ const Carousel = () => {
 
                     {/* Slide 2 */}
                     <SwiperSlide>
-                        <div className="flex items-center justify-center h-screen bg-gray-200">
-                            <Image src={Image2} className="object-cover w-full h-full transform scale-100" width={600} height={900} alt='image2' />
+                        <div className=" img-con flex items-center justify-center h-screen bg-gray-200 ">
+                            <Image src={Image2} className="object-cover w-full h-full transform scale-100 grid-img" width={800} height={1200} alt='image1' />
+                            <button className="grid-img-btn absolute bottom-20 px-6 py-2 border-2 border-white text-white bg-[#942121] hover:bg-black hover:text-white transition duration-300">
+                                <a href='' target='blank'>View More</a>
+                            </button>
                         </div>
                     </SwiperSlide>
 
                     {/* Slide 3 */}
                     <SwiperSlide>
-                        <div className="flex items-center justify-center h-screen bg-gray-200">
-                            <Image src={Image3} className="object-cover w-full h-full transform scale-100" width={600} height={900} alt='image3' />
+                        <div className=" img-con flex items-center justify-center h-screen bg-gray-200 ">
+                            <Image src={Image3} className="object-cover w-full h-full transform scale-100 grid-img" width={800} height={1200} alt='image1' />
+                            <button className="grid-img-btn absolute bottom-20 px-6 py-2 border-2 border-white text-white bg-[#942121] hover:bg-black hover:text-white transition duration-300">
+                                <a href='' target='blank'>View More</a>
+                            </button>
                         </div>
                     </SwiperSlide>
 
                     {/* Slide 4 */}
                     <SwiperSlide>
-                        <div className="flex items-center justify-center h-screen bg-gray-200">
-                            <Image src={Image4} className="object-cover w-full h-full transform scale-100" width={600} height={900} alt='image4' />
+                        <div className=" img-con flex items-center justify-center h-screen bg-gray-200 ">
+                            <Image src={Image4} className="object-cover w-full h-full transform scale-100 grid-img" width={800} height={1200} alt='image1' />
+                            <button className="grid-img-btn absolute bottom-20 px-6 py-2 border-2 border-white text-white bg-[#942121] hover:bg-black hover:text-white transition duration-300">
+                                <a href='' target='blank'>View More</a>
+                            </button>
                         </div>
                     </SwiperSlide>
 

@@ -89,6 +89,21 @@ body {
 }
 
 
+
+.img-con:hover .grid-img{ 
+  scale: 1.05;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.grid-img-btn{
+  display: none;
+}
+
+.img-con:hover .grid-img-btn{
+  display: block;
+}
+
 .socials{ 
   padding-left: 3vw;
   padding-top: 5vh;
