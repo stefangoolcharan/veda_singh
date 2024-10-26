@@ -26,10 +26,10 @@ export default function Portfolio() {
                 </div>
                 <h1 className='text-black font-medium text-3xl sm:text-xl md:text-3xl lg:text-4xl'>PORTFOLIO</h1>
                 <div className='flex justify-between items-center h-64 px-[20vw] lg:px-[37vw] md:px-[30vw]'>
-                    <div className='text-left text-1xl sm:text-xl md:text-2xl lg:text-3xl text-black font-semibold'>
+                    <div className='text-left text-1xl sm:text-xl md:text-2xl lg:text-3xl text-black font-semibold comp-card'>
                         COMP CARD:
                     </div>
-                    <div className='text-left text-sm sm:text-sm md:text-sm lg:text-lg text-black font-medium'>
+                    <div className='text-left text-sm sm:text-sm md:text-sm lg:text-lg text-black font-medium comp-card'>
                         <ul>
                             <li>Height: 5'8" / 1.72m</li>
                             <li>Bust: 34" / 86.3cm</li>

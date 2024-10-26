@@ -7,7 +7,7 @@ import Image5 from '../public/Portfolio/5.jpg';
 import Image6 from '../public/Portfolio/6.jpg';
 import Image7 from '../public/Portfolio/7.jpg';
 import Image8 from '../public/Portfolio/10.jpg';
-import Image9 from '../public/Portfolio/9.jpg';
+import Image9 from '../public/Portfolio/15.jpg';
 
 
 const Gallery = () => {
@@ -18,32 +18,32 @@ const Gallery = () => {
                     <Image src={Image1} className="h-auto max-w-full rounded-lg " width={600} height={600} alt='image1' />
                 </div>
                 <div>
-                    <Image src={Image7} className="h-auto max-w-full rounded-lg" width={500} height={700} alt='image1' />
+                    <Image src={Image7} className="h-auto max-w-full rounded-lg" width={500} height={700} alt='image7' />
                 </div>
                 <div>
-                    <Image src={Image3} className="h-auto max-w-full rounded-lg" width={600} height={900} alt='image1' />
+                    <Image src={Image3} className="h-auto max-w-full rounded-lg" width={600} height={900} alt='image3' />
                 </div>
             </div>
             <div className='grid gap-2' >
                 <div>
-                    <Image src={Image5} className="h-auto max-w-full rounded-lg" width={400} height={500} alt='image1' />
+                    <Image src={Image5} className="h-auto max-w-full rounded-lg" width={400} height={500} alt='image5' />
                 </div>
                 <div>
-                    <Image src={Image4} className="h-auto max-w-full rounded-lg" width={400} height={500} alt='image1' />
+                    <Image src={Image4} className="h-auto max-w-full rounded-lg" width={400} height={500} alt='image4' />
                 </div>
                 <div>
-                    <Image src={Image6} className="h-auto max-w-full rounded-lg" width={400} height={500} alt='image1' />
+                    <Image src={Image6} className="h-auto max-w-full rounded-lg" width={400} height={500} alt='image6' />
                 </div>
             </div>
             <div className='grid gap-4' >
                 <div>
-                    <Image src={Image9} className="h-auto max-w-full rounded-lg" width={600} height={600} alt='image1' />
+                    <Image src={Image9} className="h-auto max-w-full rounded-lg" width={600} height={600} alt='image9' />
                 </div>
                 <div>
-                    <Image src={Image8} className="h-auto max-w-full rounded-lg" width={500} height={700} alt='image1' />
+                    <Image src={Image8} className="h-auto max-w-full rounded-lg" width={500} height={700} alt='image8' />
                 </div>
                 <div>
-                    <Image src={Image2} className="h-auto max-w-full rounded-lg" width={600} height={900} alt='image1' />
+                    <Image src={Image2} className="h-auto max-w-full rounded-lg" width={600} height={900} alt='image2' />
                 </div>
             </div>
         </div>

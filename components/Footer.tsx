@@ -1,15 +1,17 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
-export default function Footer() {
+import Image1 from '../public/footer.png'
+
+const Footer = () => {
     return (
         <footer className="bg-[#0E0D0D] text-white py-8">
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center">
 
                 {/* Right side - Business Name */}
-                <div className="mt-8 md:mt-0 name">
-                    <p className="text-5xl sm:text-5xl md:text-6xl lg:text-6xl text-[#white] font-semibold">VEDA </p>
-                    <p className="text-6xl sm:text-6xl md:text-7xl lg:text-7xl text-[#942121] font-semibold pl-20">SINGH</p>
-                </div>
+                <Link href="/" >
+                    <Image src={Image1} width={200} alt="footer-logo" />
+                </Link>
 
                 {/* Left side - Navigation Links & Social Icons */}
                 <div className="flex flex-col items-start ">
@@ -36,8 +38,8 @@ export default function Footer() {
                                     <a href="../app/css/about.js" className="hover:text-gray-400 text-2xl">About Me</a>
                                 </div>
                             </li>
-                            <li> 
-                                <Link href="https://www.instagram.com/veda_singh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="  target="_blank"
+                            <li>
+                                <Link href="https://www.instagram.com/veda_singh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
                                     className="text-white-600 hover:text-[#D62976] transition-colors duration-300">
                                     <i className="fab fa-instagram text-2xl"></i>
                                 </Link>
@@ -55,3 +57,5 @@ export default function Footer() {
         </footer>
     );
 }
+
+export default Footer

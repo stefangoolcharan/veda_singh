@@ -17,20 +17,21 @@ const Navbar = () => {
         
         <nav className="bg-[#F2FCF8] shadow-md py-4">
             <div className="container mx-auto px-4 flex items-center justify-between">
+
                 <div className="flex-1 flex justify-end nav-txt">
-                    <a href="#" className="text-black px-4">
+                    <Link href="/portfolio" className=" flex justify-center text-black">
                         Portfolio
-                    </a>
+                    </Link>
                 </div>
 
-                <Link href="/" className=" flex justify-center px-10">
+                <Link href="/" className=" flex justify-center px-20">
                     <Image src={logo} alt="logo" className="w-28" />
                 </Link>
     
                 <div className="flex-1 flex justify-start nav-txt">
-                    <a href="#" className="text-black px-4">
-                        About
-                    </a>
+                    <Link href="/#about" className=" flex justify-center text-black">
+                        About Me
+                    </Link>
                 </div>
             </div>
         </nav>

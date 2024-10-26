@@ -5,17 +5,10 @@
 
 .quote1 {
     letter-spacing: 5px;
-    font-family: "Kaisei HarunoUmi", serif;
+    font-family: "Cormorant", serif;
     color: black;
 }
 
 .quote2 {
     font-family: "Kaisei HarunoUmi", serif;
 }
-
-.her {
-    font-family: "Kaisei HarunoUmi", serif;
-    color: #942121;
-    z-index: 1;
-}
-
